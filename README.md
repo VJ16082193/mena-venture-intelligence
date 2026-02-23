@@ -1,6 +1,12 @@
 # MENA Venture Intelligence Dashboard
 
-A production-grade deal sourcing and ecosystem intelligence platform for VC teams tracking startup funding activity across UAE and the broader MENA region.
+A venture-grade intelligence platform designed to simulate internal deal sourcing workflows for VC teams tracking startup funding activity across the UAE and broader MENA region.
+
+---
+
+Built by Your **Vardhman Jain** 
+Computer Science, BITS Dubai  
+Venture & Startup Analytics
 
 ---
 
@@ -11,6 +17,26 @@ A production-grade deal sourcing and ecosystem intelligence platform for VC team
 - **Normalizes** currencies to USD, standardizes sector labels, deduplicates entities
 - **Stores** clean data in PostgreSQL
 - **Surfaces** VC-grade analytics via an interactive Streamlit dashboard
+
+---
+
+## Why This Exists
+
+Early-stage venture investing in MENA is fragmented across news sources and press releases. 
+This project was built to simulate an internal VC deal sourcing workflow — transforming unstructured funding announcements into structured, queryable intelligence.
+
+The goal: surface capital flow patterns, sector momentum, and investor behavior in a way that supports informed investment decisions.
+
+---
+
+## Example Insights Generated
+
+- Sector-level capital deployment (rolling 12 months)
+- Median seed round size by country
+- Most active regional investors (deal count + lead frequency)
+- Co-investment pair frequency mapping
+- Early-stage companies raising under $5M in the last 6 months
+- Capital concentration trends across UAE, KSA, and Egypt
 
 ---
 
@@ -203,6 +229,15 @@ alembic upgrade head
 
 ---
 
+## Design Principles
+
+- Lean architecture (no unnecessary infrastructure)
+- Data quality first (deduplication, normalization, validation)
+- VC-oriented analytics (metrics aligned with investment workflows)
+- Modular structure for maintainability
+
+---
+
 ## License
 
-Internal use only. Not for distribution.
+This project is a venture intelligence simulation tool built for academic and research purposes.
