@@ -1,23 +1,23 @@
-# Python
+
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Virtual environment
+
 venv/
 .env
 
-# Logs
+
 logs/
 *.log
 
-# OS
+
 .DS_Store
 
-# IDE
+
 .vscode/
 .idea/
 
-# Database
+
 *.db
